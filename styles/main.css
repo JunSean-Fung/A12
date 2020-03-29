@@ -85,7 +85,7 @@ aside {
 }
 aside h2 {
 	font-size: 130%;
-	color: black; /* set the months text to black */
+	color: #800000;
 	padding: 0.5em 0em 0.25em 0em;
 }
 aside h3 {
