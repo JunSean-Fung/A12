@@ -85,7 +85,7 @@ aside {
 }
 aside h2 {
 	font-size: 130%;
-	color: black; /* set the months text to black */
+	color: #800000; /* set the months text to black */
 	padding: 0.5em 0em 0.25em 0em;
 }
 aside h3 {
@@ -108,7 +108,6 @@ article img {
 article h2 {
 	padding-top: 0;
 	font-size: 110%;
-
 }
 article h3 {
 	font-size: 105%;
@@ -119,7 +118,10 @@ article h3 {
 main {
 	clear: left;
 }
-
+main h3 {
+	margin: 0 auto;
+	color: black;
+}
 /* ========== Selectors ==========*/
 /* When focus on the link */
 a:focus {
