@@ -58,7 +58,8 @@ section h1 {
 	margin: 0;
 }
 section h2 {
-
+	color: #800000;
+	padding: 0.25em 0;
 }
 section p {
 	padding-bottom: 0.5em; /* set bottom padding */
@@ -104,6 +105,7 @@ article {
 article img {
 	float: right;
 	margin: 1em;
+	margin-right: 0em; /* to make it look like the pdf and align it with the bottom border */
 	border: 1px solid black;
 }
 article h2 {
