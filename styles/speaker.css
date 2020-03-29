@@ -103,6 +103,7 @@ article {
 article img {
 	float: right;
 	margin: 1em;
+	border: 1px solid black;
 }
 article h2 {
 	padding-top: 0;
