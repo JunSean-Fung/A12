@@ -110,10 +110,12 @@ article img {
 }
 article h2 {
 	padding-top: 0;
+
 }
 article h3 {
 	font-size: 105%;
 	padding-bottom: 0.25em;
+
 }
 /* ========== Main Selectors ==========*/
 /* styles for elements within the main tag that is not specified*/

@@ -59,7 +59,7 @@ section h1 {
 	color: #800000;
 }
 section h2 {
-
+	margin-bottom: 0.25em;
 }
 section p {
 	padding-bottom: 0.5em; /* set bottom padding */
@@ -99,17 +99,15 @@ aside img {
 /* ========== article Selector ==========*/
 article {
 	padding: 0.5em 0 0.5em 0;
-
-
 }
 article img {
 	float: right;
 	margin: 1em;
-
 }
 article h2 {
 	padding-top: 0;
 	font-size: 110%;
+
 }
 article h3 {
 	font-size: 105%;
