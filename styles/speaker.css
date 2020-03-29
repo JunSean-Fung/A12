@@ -118,10 +118,6 @@ article h3 {
 main {
 	clear: left;
 }
-main h3 {
-	margin: 0 auto;
-	color: black;
-}
 /* ========== Selectors ==========*/
 /* When focus on the link */
 a:focus {
