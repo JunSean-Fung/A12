@@ -1,0 +1,116 @@
+/* JunSean Fung*/
+
+/* ========== reset Selector ==========*/
+/* set margin and padding to zero */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* ========== body Selector ==========*/
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	margin: 0px auto 0px auto; /* parameter: top right bottom left */
+	width: 600px;
+	border: 3px solid #931420; /*parameter: width style color */
+	background: #fffded; /* set the entire background color */
+}
+html{
+	background: white;
+}
+/* ========== Header Selectors ==========*/
+/* styles for elements within the header tag that is not specified*/
+header {
+	border-bottom: 3px solid #931420; /*parameter: width style color */
+	padding: 1.5em 0em 2em 0em; /* parameter: top right bottom left */
+	background-image: linear-gradient(30deg, #f6bb73 0%, #f6bb73 0%, white 50%, #f6bb73 100%, #f6bb73 100%); /* works for IE as well */
+}
+/* the styles for the logo(image) within the page */
+header img {
+	float: left;
+	padding: 0px 30px 0px 30px; /* parameter: top right bottom left */
+}
+/* style for h2 within the header tag*/
+header h2 {
+	font-size: 170%;
+	color: #800000;
+}
+/* style for h3 within the header tag */
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+
+/* ========== Main Selectors ==========*/
+/* styles for elements within the main tag that is not specified*/
+main {
+	clear: left;
+	padding: 0px 30px 0px 30px;
+}
+/* selector for h1 within the main element*/
+main h1 {
+	font-size: 150%;
+	border: 3px double #931420;
+	border-radius: 10px 10px 10px 10px;
+	padding: 0.3em 0em 0.3em 1.5em;
+	box-shadow: 5px 5px;
+	background: white;
+}
+/* selector for h2 within the main element*/
+main h2 {
+	font-size: 130%;
+	color: black; /* set the months text to black */
+	padding: 0.5em 0em 0.25em 0em;
+}
+
+/* selector for h3 within the main element*/
+main h3 {
+	font-size: 105%;
+	padding-bottom: 0.25em; /* set bottom padding */
+}
+/* selector for image within the main element*/
+main img {
+	padding: 0.3em 0em 0.5em 0em; /* parameter: top right bottom left */
+}
+/* selector for paragraph within the main element*/
+main p {
+	padding-bottom: 0.5em; /* set bottom padding */
+}
+/* selector for blockquote within the main element*/
+main blockquote {
+	font-style: italic; /* italizied the font within the blockquote tag */
+	padding: 0em 2em 0em 2em;
+}
+/* selector for unordered list within the main element*/
+main ul {
+	padding: 0em 0em 0.25em 1.25em;
+}
+/* selector for each list within the main element*/
+main li {
+	padding-bottom: 0.35em; /* set bottom padding */
+}
+
+/* ========== Selectors ==========*/
+/* When focus on the link */
+a:focus {
+	font-style: italic;
+}
+/* when hover on the link */
+a:hover {
+	font-style: italic;
+}
+/* text shadow */
+.shadow {
+	text-shadow: 2px 2px #800000;
+}
+/* the styles for the footer */
+footer p {
+	text-align: center; /* align the text to center */
+	background: #931420; /* set background color */
+	color: white; /* set font color */
+	padding: 1em 0em 1em 0em;
+}
+
+
