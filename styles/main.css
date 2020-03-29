@@ -13,10 +13,22 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 100%;
 	margin: 0px auto 0px auto; /* parameter: top right bottom left */
-	width: 600px;
+	width: 800px;
 	border: 3px solid #931420; /*parameter: width style color */
 	background: #fffded; /* set the entire background color */
 }
+/* ========== section Selector ==========*/
+section {
+	width: 525px;
+	float: right;
+	padding: 0 0 20px 0;
+}
+aside {
+	width: 215px;
+	float: right;
+	padding: 0 0 20px 20px;
+}
+/* ========== html Selector ==========*/
 html{
 	background: white;
 }
@@ -47,7 +59,7 @@ header h3 {
 /* styles for elements within the main tag that is not specified*/
 main {
 	clear: left;
-	padding: 0px 30px 0px 30px;
+
 }
 /* selector for h1 within the main element*/
 main h1 {
@@ -111,6 +123,7 @@ footer p {
 	background: #931420; /* set background color */
 	color: white; /* set font color */
 	padding: 1em 0em 1em 0em;
+	clear: both;
 }
 
 
